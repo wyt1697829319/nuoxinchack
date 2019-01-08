@@ -5,7 +5,49 @@
 main{
     width: 1246px;
     height: 78px;
-    margin: 0 auto;
+    margin: 0 auto;   
+   
+    
+      #wei{   
+                width: 223px;
+                height: 34px;
+                float: left;
+                border:0px solid gray; 
+                
+            }  
+            #text{  
+                    margin-top:14px ;
+                    margin-left: 152px;
+                    width:203px;  
+                    height:33px;  
+                    line-height: 50px;  
+                    padding-left:20px;  
+                    font-size: 16px; 
+                    border: none;
+                    outline: none;
+                    border-bottom: 1px solid #3e3e3e;
+            }  
+            #wei ul li{  
+                    width:223px;  
+                    height:30px;  
+                    line-height: 30px;  
+                    text-indent:10px;  
+                    font-size: 16px;  
+                    list-style: none;  
+                    color: #000;
+            }  
+            #wei ul li a{  
+                    text-decoration:none;  
+                    color: #000;
+            }  
+            #wei ul li:hover{  
+                display:block;  
+                background:#ccc;  
+                color:#fff;  
+            } 
+    
+    
+    
 }
 main h1{
     width: 213px;
@@ -14,14 +56,6 @@ main h1{
    padding-top: 17px;
    float: left;
    margin-left: 500px;
-}
-main input{
-    border: none;
-    border-bottom: 1px solid #3e3e3e;
-    margin-top: 25px;
-    margin-left: 150px;
-    width: 200px;
-    height: 20px;
 }
 main .shop{
     width: 66px;
@@ -53,6 +87,7 @@ main .nav{
     ul{
         width: 720px;
         height: 57px;
+        margin-top: 20px;
         float: left;
         li{
             width: 120px;
@@ -60,6 +95,12 @@ main .nav{
             line-height: 40px;
             text-align: center;
             float: left;
+            a{
+                color: #3e3e3e;
+            }
+            a:hover{
+                color: #b51a00;
+            }
         }
     }
 }
@@ -67,7 +108,7 @@ main .nav{
     width: 100%;
     height: 600px;
     background: url(../static/images/6.jpg) no-repeat center center;
-    margin-top: 45px;
+    margin-top: 50px;
 }
 .check-t{
     width: 1243px;
